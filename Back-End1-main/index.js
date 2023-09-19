@@ -26,7 +26,7 @@ let listaTelefonicas = [
 ]
 
 app.get('/', (request, response) => {
-    response.send('<h1>Seja bem vindo!</h1>')
+    response.send('<h1>Seja muito bem vindo!</h1>')
 })
 
 app.get('/api/lista-telefonica/', (request, response) => {
